@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aabab251-38be-46f2-aaa1-3c5fde90cc34" name="Changes" comment="" />
+    <list default="true" id="aabab251-38be-46f2-aaa1-3c5fde90cc34" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(api)/user+api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/RideCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/fetch.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/sign-up.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/sign-up.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,25 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\eslint&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -73,7 +90,7 @@
       <workItem from="1736493566036" duration="10000" />
       <workItem from="1736493587365" duration="7271000" />
       <workItem from="1736644393725" duration="11438000" />
-      <workItem from="1736656846288" duration="16931000" />
+      <workItem from="1736656846288" duration="39116000" />
     </task>
     <servers />
   </component>
