@@ -10,7 +10,18 @@ export const generateMarkersFromData = ({
   data: Driver[];
   userLatitude: number;
   userLongitude: number;
-}): MarkerData[] => {
+}): {
+  latitude: number;
+  longitude: number;
+  title: string;
+  driver_id: number;
+  first_name: string;
+  last_name: string;
+  profile_image_url: string;
+  car_image_url: string;
+  car_seats: number;
+  rating: number;
+}[] => {
   return data.map((driver) => {
     const latOffset = (Math.random() - 0.5) * 0.01; // Random offset between -0.005 and 0.005
     const lngOffset = (Math.random() - 0.5) * 0.01; // Random offset between -0.005 and 0.005
@@ -99,6 +110,7 @@ export const calculateDriverTimes = async ({
         `https://maps.googleapis.com/maps/api/directions/json?origin=${marker.latitude},${marker.longitude}&destination=${userLatitude},${userLongitude}&key=${directionsAPI}`,
       );
       const dataToUser = await responseToUser.json();
+      //console.log("data-->", dataToUser);
       const timeToUser = dataToUser.routes[0].legs[0].duration.value; // Time in seconds
 
       const responseToDestination = await fetch(

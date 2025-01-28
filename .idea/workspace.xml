@@ -5,27 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aabab251-38be-46f2-aaa1-3c5fde90cc34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(api)/(stripe)/create+api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(api)/(stripe)/pay+api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(api)/driver+api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(api)/ride/[id]+api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(api)/ride/create+api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/book-ride.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/confirm-ride.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(root)/find-ride.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/DriverCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/GoogleTextInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Map.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Payment.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/RideLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/map.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(api)/(stripe)/pay+api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/(api)/(stripe)/pay+api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(api)/ride/[id]+api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/(api)/ride/[id]+api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(api)/ride/create+api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/(api)/ride/create+api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(api)/user+api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/(api)/user+api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/chat.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/chat.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(root)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/(tabs)/rides.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/(tabs)/rides.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/find-ride.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/find-ride.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/GoogleTextInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/GoogleTextInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Map.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/OAuth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/OAuth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Payment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Payment.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/map.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/type.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/type.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +38,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/(tabs)/index.tsx" root0="SKIP_INSPECTION" />
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -55,25 +52,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\eslint&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\karan\\Cab_Application\\roamer\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -96,7 +93,8 @@
       <workItem from="1736493587365" duration="7271000" />
       <workItem from="1736644393725" duration="11438000" />
       <workItem from="1736656846288" duration="53967000" />
-      <workItem from="1737671019248" duration="17591000" />
+      <workItem from="1737671019248" duration="21056000" />
+      <workItem from="1737941624766" duration="16641000" />
     </task>
     <servers />
   </component>

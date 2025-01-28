@@ -13,7 +13,7 @@ import {
 import { useDriverStore, useLocationStore } from "@/store";
 import { Driver, MarkerData } from "@/types/type";
 
-const directionsAPI = process.env.EXPO_PUBLIC_DIRECTIONS_API_KEY;
+const directionsAPI = process.env.EXPO_PUBLIC_GOOGLE_API_KEY;
 
 const Map = () => {
   const {
@@ -37,7 +37,7 @@ const Map = () => {
         userLongitude,
       });
 
-      setMarkers(newMarkers);
+      setMarkers(newMarkers); // Set markers with valid `MarkerData` objects
     }
   }, [drivers, userLatitude, userLongitude]);
 
@@ -57,7 +57,14 @@ const Map = () => {
         setDrivers(drivers as MarkerData[]);
       });
     }
-  }, [markers, destinationLatitude, destinationLongitude]);
+  }, [
+    markers,
+    destinationLatitude,
+    destinationLongitude,
+    userLatitude,
+    userLongitude,
+    setDrivers,
+  ]);
 
   const region = calculateRegion({
     userLatitude,
@@ -85,7 +92,7 @@ const Map = () => {
       provider={PROVIDER_DEFAULT}
       className="w-full h-full rounded-2xl"
       tintColor="black"
-      mapType="mutedStandard"
+      mapType="standard"
       showsPointsOfInterest={false}
       initialRegion={region}
       showsUserLocation={true}
@@ -127,7 +134,7 @@ const Map = () => {
             }}
             apikey={directionsAPI!}
             strokeColor="#0286FF"
-            strokeWidth={3}
+            strokeWidth={2}
           />
         </>
       )}

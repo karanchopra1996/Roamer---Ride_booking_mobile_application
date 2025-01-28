@@ -20,21 +20,21 @@ export async function GET(request: Request, { id }: { id: string }) {
             rides.payment_status,
             rides.created_at,
             'driver', json_build_object(
-                'driver_id', drivers.id,
-                'first_name', drivers.first_name,
-                'last_name', drivers.last_name,
-                'profile_image_url', drivers.profile_image_url,
-                'car_image_url', drivers.car_image_url,
-                'car_seats', drivers.car_seats,
-                'rating', drivers.rating
-            ) AS driver 
-        FROM 
+                    'driver_id', drivers.id,
+                    'first_name', drivers.first_name,
+                    'last_name', drivers.last_name,
+                    'profile_image_url', drivers.profile_image_url,
+                    'car_image_url', drivers.car_image_url,
+                    'car_seats', drivers.car_seats,
+                    'rating', drivers.rating
+                      ) AS driver
+        FROM
             rides
-        INNER JOIN
+                INNER JOIN
             drivers ON rides.driver_id = drivers.id
-        WHERE 
+        WHERE
             rides.user_id = ${id}
-        ORDER BY 
+        ORDER BY
             rides.created_at DESC;
     `;
 
