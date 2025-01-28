@@ -2,6 +2,10 @@
 
 Roamer is a powerful mobile application built with **React Native** for handling the user interface, **Google Maps** for rendering maps with directions, **Stripe** for handling payments, **serverless PostgreSQL** for managing databases, and styled with **Tailwind CSS**. The primary goal is to demonstrate how to develop full-stack mobile applications to showcase a developer's skills in a unique and impactful manner.
 
+## Demo
+
+https://github.com/user-attachments/assets/6ac4c14c-dd11-4022-b019-7ace60c27663
+
 ---
 
 ## Tech Stack  
@@ -52,7 +56,7 @@ Ensure you have the following installed on your machine:
 ###  Install the project dependencies using npm:
  - npm install
 
-## ⚙Set Up Environment Variables
+## Set Up Environment Variables
 ### Create a new file named .env in the root of your project.
 Add the following content:
 - EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=
