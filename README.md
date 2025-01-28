@@ -1,6 +1,6 @@
 # Roamer - Ride Booking Mobile Application 🚖  
 
-Roamer is a powerful mobile application built with **React Native** for handling the user interface, **Google Maps** for rendering maps with directions, **Stripe** for handling payments, **serverless PostgreSQL** for managing databases, and styled with **Tailwind CSS**. The primary goal is to demonstrate how to develop full-stack mobile applications to showcase a developer's skills in a unique and impactful manner.
+Roamer is a powerful mobile application built with **React Native** for handling the user interface, **Google Maps** for rendering maps with directions, **Stripe** for handling payments, **serverless PostgreSQL** for managing databases, and styled with **Tailwind CSS**. The primary goal is to demonstrate how to develop full-stack mobile applications to showcase skills in a unique and impactful manner.
 
 ## Demo
 
