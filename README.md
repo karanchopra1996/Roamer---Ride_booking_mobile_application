@@ -9,7 +9,8 @@ https://github.com/user-attachments/assets/6ac4c14c-dd11-4022-b019-7ace60c27663
 ---
 
 ## Tech Stack  
-- React Native  
+- React Native
+- Next.js
 - Expo  
 - Stripe  
 - PostgreSQL  
